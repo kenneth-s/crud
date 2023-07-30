@@ -2,9 +2,8 @@
   "packages": [
     "packages/*"
   ],
-  "npmClient": "yarn",
-  "useWorkspaces": true,
-  "version": "5.0.0-alpha.3",
+  "npmClient": "npm",
+  "version": "5.0.1",
   "command": {
     "publish": {
       "message": "chore: release"

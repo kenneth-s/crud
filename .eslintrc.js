@@ -13,6 +13,9 @@ module.exports = {
   },
   ignorePatterns: ['.eslintrc.js'],
   rules: {
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": "off",
+    "@typescript-eslint/no-unnecessary-type-constraint": "off",
     '@typescript-eslint/interface-name-prefix': 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
@@ -39,7 +42,6 @@ module.exports = {
           'private-instance-field',
           'public-abstract-field',
           'protected-abstract-field',
-          'private-abstract-field',
           'public-constructor',
           'protected-constructor',
           'private-constructor',
@@ -50,8 +52,7 @@ module.exports = {
           'protected-instance-method',
           'private-instance-method',
           'public-abstract-method',
-          'protected-abstract-method',
-          'private-abstract-method',
+          'protected-abstract-method'
         ],
       },
     ],
