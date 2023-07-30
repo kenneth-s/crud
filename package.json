@@ -1,5 +1,5 @@
 {
-  "name": "@nestjsx/crud",
+  "name": "@kenneth-s/crud",
   "version": "5.0.1",
   "description": "Nest CRUD for RESTful APIs",
   "license": "MIT",
@@ -9,7 +9,7 @@
   "private": true,
   "scripts": {
     "boot": "npx lerna bootstrap",
-    "rebuild": "yarn clean && yarn build",
+    "rebuild": "npm run clean && npm run build",
     "build": "npx mrepo build",
     "clean": "npx mrepo clean && npx rimraf ./.mrepo",
     "test": "npx mrepo test",
@@ -28,19 +28,11 @@
     "format": "npx lint-staged",
     "lint": "npx eslint \"packages/**/!(*.d).ts\" --fix",
     "commit": "npx git-cz",
-    "postinstall": "npx opencollective",
     "prepare": "npx husky install"
   },
   "config": {
     "commitizen": {
       "path": "node_modules/cz-conventional-changelog"
-    }
-  },
-  "collective": {
-    "type": "opencollective",
-    "url": "https://opencollective.com/nestjsx",
-    "donation": {
-      "text": "Become a partner:"
     }
   },
   "dependencies": {

@@ -1,4 +1,4 @@
-import { ObjectLiteral } from '@nestjsx/util';
+import { ObjectLiteral } from '@kenneth-s/util';
 import { ClassTransformOptions } from 'class-transformer';
 import { QueryFields, QueryFilter, QueryJoin, QuerySort, SCondition } from '../types';
 

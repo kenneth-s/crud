@@ -1,5 +1,5 @@
 {
-  "name": "@nestjsx/crud-request",
+  "name": "@kenneth-s/crud-request",
   "description": "NestJs CRUD for RESTful APIs - request query builder",
   "version": "5.0.1",
   "license": "MIT",
@@ -14,9 +14,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/kenneth-s/crud.git"
-  },
-  "bugs": {
-    "url": "https://github.com/nestjsx/crud/issues"
   },
   "keywords": [
     "typescript",
@@ -47,7 +44,7 @@
     "build": "npx tsc -b"
   },
   "dependencies": {
-    "@nestjsx/util": "^5.0.1",
+    "@kenneth-s/util": "^5.0.1",
     "qs": "^6.10.3"
   }
 }

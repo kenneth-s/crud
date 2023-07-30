@@ -1,6 +1,6 @@
 import { NestFactory } from '@nestjs/core';
 import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
-import { CrudConfigService } from '@nestjsx/crud';
+import { CrudConfigService } from '@kenneth-s/crud';
 import { USER_REQUEST_KEY } from './constants';
 
 // Important: load config before (!!!) you import AppModule

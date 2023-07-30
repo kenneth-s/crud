@@ -11,7 +11,7 @@ import {
   getOwnPropNames,
   isNil,
   isUndefined,
-} from '@nestjsx/util';
+} from '@kenneth-s/util';
 import * as deepmerge from 'deepmerge';
 
 import { R } from './reflection.helper';
@@ -29,7 +29,10 @@ export class CrudRoutesFactory {
 
   protected swaggerModels: any = {};
 
-  constructor(protected target: any, options: CrudOptions) {
+  constructor(
+    protected target: any,
+    options: CrudOptions,
+  ) {
     this.options = options;
     this.create();
   }

@@ -1,6 +1,6 @@
 import { join } from 'path';
 import { TypeOrmModuleOptions } from '@nestjs/typeorm';
-import { isNil } from '@nestjsx/util';
+import { isNil } from '@kenneth-s/util';
 import { dbhost, dbpassword, dbuser } from './dbconfig';
 
 const type = (process.env.TYPEORM_CONNECTION as any) || 'postgres';

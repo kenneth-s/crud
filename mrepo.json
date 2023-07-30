@@ -1,7 +1,7 @@
 {
   "workspace": {
     "name": "packages",
-    "scope": "nestjsx",
+    "scope": "kenneth-s",
     "registry": "npm",
     "packages": [
       {
