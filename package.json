@@ -29,10 +29,7 @@
     "lint": "npx eslint \"packages/**/!(*.d).ts\" --fix",
     "commit": "npx git-cz",
     "postinstall": "npx opencollective",
-    "prepare": "npx husky install",
-    "release": "mrepo release",
-    "release:alpha": "yarn release prerelease --preid alpha --dist-tag alpha",
-    "release:beta": "yarn release prerelease --preid beta --dist-tag beta"
+    "prepare": "npx husky install"
   },
   "config": {
     "commitizen": {
